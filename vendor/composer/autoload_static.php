@@ -4,22 +4,22 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7f06ea7836294df7a756dded59e7858e
+class ComposerStaticInitec725008ccf084b805a1d9c9fd9cb8cf
 {
     public static $prefixLengthsPsr4 = array (
-        'R' => 
+        'I' => 
         array (
-            'Realtyna\\Sync\\' => 14,
-            'Realtyna\\' => 9,
+            'Idealdevex\\Webportal\\' => 21,
+            'Idealdevex\\' => 11,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Realtyna\\Sync\\' => 
+        'Idealdevex\\Webportal\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/realtyna',
+            0 => __DIR__ . '/../..' . '/idealdevex',
         ),
-        'Realtyna\\' => 
+        'Idealdevex\\' => 
         array (
             0 => __DIR__ . '/../..' . '/',
         ),
@@ -32,9 +32,9 @@ class ComposerStaticInit7f06ea7836294df7a756dded59e7858e
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit7f06ea7836294df7a756dded59e7858e::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit7f06ea7836294df7a756dded59e7858e::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit7f06ea7836294df7a756dded59e7858e::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitec725008ccf084b805a1d9c9fd9cb8cf::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitec725008ccf084b805a1d9c9fd9cb8cf::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitec725008ccf084b805a1d9c9fd9cb8cf::$classMap;
 
         }, null, ClassLoader::class);
     }

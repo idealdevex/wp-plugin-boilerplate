@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
+        'name' => 'idealdevex/web-portal',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
+        'reference' => '10a977f1e7d9b07bf746a65964d1f4758f5f2ee7',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'a3f214248d572c3865754bc7aa461630e3c8b8d8',
-        'name' => 'realtyna/mls-sync',
         'dev' => true,
     ),
     'versions' => array(
-        'realtyna/mls-sync' => array(
+        'idealdevex/web-portal' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
+            'reference' => '10a977f1e7d9b07bf746a65964d1f4758f5f2ee7',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'a3f214248d572c3865754bc7aa461630e3c8b8d8',
             'dev_requirement' => false,
         ),
     ),
