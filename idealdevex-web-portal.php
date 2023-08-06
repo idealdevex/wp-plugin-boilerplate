@@ -23,4 +23,6 @@ define( "IDEALDEVEX_WEB_PORTAL_PLUGIN_FILE" , __FILE__ );
 
 require_once dirname( IDEALDEVEX_WEB_PORTAL_PLUGIN_FILE ) . "/vendor/autoload.php";
 
-
+if ( Idealdevex\Webportal\Core\App::class ) {
+    \Idealdevex\Webportal\Core\App::getInstance();
+}
