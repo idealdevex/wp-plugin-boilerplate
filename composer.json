@@ -1,0 +1,10 @@
+{
+    "name": "idealdevex/web-portal",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Idealdevex\\": "",
+            "Idealdevex\\Webportal\\": "idealdevex"
+        }
+    }
+}
