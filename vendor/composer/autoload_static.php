@@ -9,13 +9,13 @@ class ComposerStaticInitec725008ccf084b805a1d9c9fd9cb8cf
     public static $prefixLengthsPsr4 = array (
         'I' => 
         array (
-            'Idealdevex\\Webportal\\' => 21,
+            'Idealdevex\\Boilerplate\\' => 23,
             'Idealdevex\\' => 11,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Idealdevex\\Webportal\\' => 
+        'Idealdevex\\Boilerplate\\' => 
         array (
             0 => __DIR__ . '/../..' . '/idealdevex',
         ),

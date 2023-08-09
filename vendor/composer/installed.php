@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'idealdevex/web-portal',
+        'name' => 'idealdevex/boilerplate-plugin',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '10a977f1e7d9b07bf746a65964d1f4758f5f2ee7',
+        'reference' => 'c013c63f5ede284e510db228ce115c8060cb608f',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'idealdevex/web-portal' => array(
+        'idealdevex/boilerplate-plugin' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '10a977f1e7d9b07bf746a65964d1f4758f5f2ee7',
+            'reference' => 'c013c63f5ede284e510db228ce115c8060cb608f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

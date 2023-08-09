@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Idealdevex\\Webportal\\' => array($baseDir . '/idealdevex'),
+    'Idealdevex\\Boilerplate\\' => array($baseDir . '/idealdevex'),
     'Idealdevex\\' => array($baseDir . '/'),
 );
