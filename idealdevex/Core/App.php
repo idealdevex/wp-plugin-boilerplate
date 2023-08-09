@@ -1,5 +1,5 @@
 <?php
-namespace Idealdevex\Webportal\Core;
+namespace Idealdevex\Boilerplate\Core;
 
 /** Block direct access to file.*/ 
 defined( 'ABSPATH' ) || die( 'Access Denied!' );
