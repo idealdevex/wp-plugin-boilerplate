@@ -1,28 +1,28 @@
 <?php
 /**
- * Plugin Name: Web Portal
+ * Plugin Name: IdealDevEx BoilerPlate Plugin
  * Plugin URI: https://idealdevex.com
- * Description: Web Portal to manage Clients,Staffs,Leads with a full features of a CRM
- * Author: Mostafa Adib
- * Author URI: https://netlog.pro
+ * Description: A boilerPlate plugin for Wordpress by IdealDevEx.Com
+ * Author: IdealDevEx
+ * Author URI: https://idealdevex.com
  * Version: 0.1.0
- * Text Domain: idealdevex-web-portal
+ * Text Domain: idealdevex-boilerplate
  */
 
 /** Block direct access to the main plugin file.*/ 
 defined( 'ABSPATH' ) || die( 'Access Denied!' );
 
 /** @var string default plugin slug holder */
-define( "IDEALDEVEX_WEB_PORTAL_SLUG" , "idealdevex-web-portal" );
+define( "IDEALDEVEX_BOILERPLATE_SLUG" , "idealdevex-boilerplate" );
 
 /** @var string plugin Version */
-define( "IDEALDEVEX_WEB_PORTAL_VERSION" , "0.1.0" );
+define( "IDEALDEVEX_BOILERPLATE_VERSION" , "0.1.0" );
 
-/** @var string plugin root path */
-define( "IDEALDEVEX_WEB_PORTAL_PLUGIN_FILE" , __FILE__ );
+/** @var string plugin root file */
+define( "IDEALDEVEX_BOILERPLATE_PLUGIN_FILE" , __FILE__ );
 
 require_once dirname( __FILE__ ) . "/vendor/autoload.php";
 
-if ( Idealdevex\Webportal\Core\App::class ) {
-    \Idealdevex\Webportal\Core\App::getInstance();
+if ( Idealdevex\Boilerplate\Core\App::class ) {
+    \Idealdevex\Boilerplate\Core\App::getInstance();
 }

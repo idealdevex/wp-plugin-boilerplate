@@ -1,10 +1,10 @@
 {
-    "name": "idealdevex/web-portal",
+    "name": "idealdevex/boilerplate-plugin",
     "require": {},
     "autoload": {
         "psr-4": {
             "Idealdevex\\": "",
-            "Idealdevex\\Webportal\\": "idealdevex"
+            "Idealdevex\\Boilerplate\\": "idealdevex"
         }
     }
 }
